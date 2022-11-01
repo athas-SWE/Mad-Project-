@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/l1_blue"
+    tools:context=".Home2">
+
+    <ImageView
+        android:id="@+id/S_imageView2"
+        android:layout_width="472dp"
+        android:layout_height="586dp"
+        android:contentDescription="@string/todo3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/home3" />
+
+    <TextView
+        android:id="@+id/S_textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/pleasant_hours"
+        android:textColor="@color/d5_blue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/S_textView4"
+        android:layout_width="357dp"
+        android:layout_height="86dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/my_pleasant_hotel_is_a_smart_choice_for_travelers_to_shenzhen_offering_a_relaxed_and_hassle_free_stay_every_time"
+        android:textAlignment="center"
+        android:textColor="@color/d4_blue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/S_textView3"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <Button
+        android:id="@+id/S_button2"
+        android:layout_width="333dp"
+        android:layout_height="52dp"
+        android:background="@drawable/custom_buttton2"
+        android:text="@string/skip1"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S_textView4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/drawable/button1.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/drawable/button2.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/drawable/button3.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/drawable/buttondesc.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/drawable/custom_button.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.3223684210526316" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_a_d__employee.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_add_inventory.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_admin.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_admin_booking.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_admin_event_show.xml" value="0.17280701754385966" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_booking.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_contactus.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_event_booking.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_home1.xml" value="0.3070652173913043" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_home2.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_home3.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_home4.xml" value="0.2868421052631579" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_main.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_our_rooms.xml" value="0.4321669736034377" />
+        <entry key="..\:/Users/User/Desktop/Thalsevena/app/src/main/res/layout/activity_pacakage.xml" value="0.3087719298245614" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

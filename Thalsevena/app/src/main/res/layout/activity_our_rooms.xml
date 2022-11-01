@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".our_rooms">
+
+
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="176dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button1"
+        android:backgroundTint="@color/d5_blue"
+        android:text="BOOK"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="412dp"
+        android:layout_height="884dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218"
+        app:srcCompat="@drawable/finalbg" />
+
+    <View
+        android:id="@+id/sview5"
+        android:layout_width="363dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="592dp"
+        android:background="@color/l0_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/stextView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="No.of Beds: 01"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView20"
+        app:layout_constraintEnd_toEndOf="@+id/sview5"
+        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintStart_toStartOf="@+id/sview5"
+        app:layout_constraintTop_toBottomOf="@+id/stextView26"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <TextView
+        android:id="@+id/stextView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Single Room"
+        android:textColor="@color/d5_blue"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sview5"
+        app:layout_constraintEnd_toEndOf="@+id/sview5"
+        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintStart_toStartOf="@+id/sview5"
+        app:layout_constraintTop_toTopOf="@+id/sview5"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <TextView
+        android:id="@+id/stextView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_black"
+        android:text="Rs. 5,000/ Night"
+        android:textColor="@color/d4_blue"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView20"
+        app:layout_constraintEnd_toEndOf="@+id/sview5"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="@+id/sview5"
+        app:layout_constraintTop_toBottomOf="@+id/stextView26"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <TextView
+        android:id="@+id/stextView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="AC: No"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView20"
+        app:layout_constraintEnd_toEndOf="@+id/sview5"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="@+id/sview5"
+        app:layout_constraintTop_toBottomOf="@+id/stextView26"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <ImageView
+        android:id="@+id/simageView20"
+        android:layout_width="187dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="592dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/singletoom" />
+
+    <TextView
+        android:id="@+id/stextView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Wi-Fi"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView20"
+        app:layout_constraintEnd_toEndOf="@+id/sview5"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="@+id/sview5"
+        app:layout_constraintTop_toBottomOf="@+id/stextView26"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="185dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Rooms"
+        android:textColor="@color/l1_blue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/sview50"
+        android:layout_width="363dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="430dp"
+        android:background="@color/l0_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/stextView550"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="One bed"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView200"
+        app:layout_constraintEnd_toEndOf="@+id/sview50"
+        app:layout_constraintHorizontal_bias="0.646"
+        app:layout_constraintStart_toStartOf="@+id/sview50"
+        app:layout_constraintTop_toBottomOf="@+id/stextView260"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/stextView260"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Suite Room"
+        android:textColor="@color/d5_blue"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sview50"
+        app:layout_constraintEnd_toEndOf="@+id/sview50"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="@+id/sview50"
+        app:layout_constraintTop_toTopOf="@+id/sview5"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <TextView
+        android:id="@+id/stextView580"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_black"
+        android:text="Rs. 7,000/ Night"
+        android:textColor="@color/d4_blue"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView200"
+        app:layout_constraintEnd_toEndOf="@+id/sview50"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="@+id/sview50"
+        app:layout_constraintTop_toBottomOf="@+id/stextView260"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <TextView
+        android:id="@+id/stextView570"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="AC: yes"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView200"
+        app:layout_constraintEnd_toEndOf="@+id/sview50"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="@+id/sview50"
+        app:layout_constraintTop_toBottomOf="@+id/stextView260"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <ImageView
+        android:id="@+id/simageView200"
+        android:layout_width="187dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="428dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/suiteroom" />
+
+    <TextView
+        android:id="@+id/stextView560"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Wi-Fi | Television"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView200"
+        app:layout_constraintEnd_toEndOf="@+id/sview50"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="@+id/sview50"
+        app:layout_constraintTop_toBottomOf="@+id/stextView260"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <View
+        android:id="@+id/sview501"
+        android:layout_width="363dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="260dp"
+        android:background="@color/l0_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/stextView5501"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Double bed"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView2001"
+        app:layout_constraintEnd_toEndOf="@+id/sview501"
+        app:layout_constraintHorizontal_bias="0.674"
+        app:layout_constraintStart_toStartOf="@+id/sview501"
+        app:layout_constraintTop_toBottomOf="@+id/stextView2601"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/stextView2601"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Standard Room"
+        android:textColor="@color/d5_blue"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sview501"
+        app:layout_constraintEnd_toEndOf="@+id/sview50"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="@+id/sview501" />
+
+    <TextView
+        android:id="@+id/stextView5801"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_black"
+        android:text="Rs. 10,000/ Night"
+        android:textColor="@color/d4_blue"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView2001"
+        app:layout_constraintEnd_toEndOf="@+id/sview501"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="@+id/sview501"
+        app:layout_constraintTop_toBottomOf="@+id/stextView2601"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <TextView
+        android:id="@+id/stextView5701"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="AC: Yes"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView2001"
+        app:layout_constraintEnd_toEndOf="@+id/sview501"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="@+id/sview501"
+        app:layout_constraintTop_toBottomOf="@+id/stextView2601"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <ImageView
+        android:id="@+id/simageView2001"
+        android:layout_width="187dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="260dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/standard" />
+
+    <TextView
+        android:id="@+id/stextView5601"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Wi-Fi | Television | Food"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView2001"
+        app:layout_constraintEnd_toEndOf="@+id/sview501"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="@+id/sview501"
+        app:layout_constraintTop_toBottomOf="@+id/stextView2601"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <View
+        android:id="@+id/sview5012"
+        android:layout_width="363dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/l0_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/stextView55012"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Triple bed"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView20012"
+        app:layout_constraintEnd_toEndOf="@+id/sview5012"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="@+id/sview5012"
+        app:layout_constraintTop_toBottomOf="@+id/stextView26012"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <TextView
+        android:id="@+id/stextView26012"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Family Room"
+        android:textColor="@color/d5_blue"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sview5012"
+        app:layout_constraintEnd_toEndOf="@+id/sview5012"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="@+id/sview5012" />
+
+    <TextView
+        android:id="@+id/stextView58012"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_black"
+        android:text="Rs. 15,000/ Night"
+        android:textColor="@color/d4_blue"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView20012"
+        app:layout_constraintEnd_toEndOf="@+id/sview5012"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="@+id/sview5012"
+        app:layout_constraintTop_toBottomOf="@+id/stextView26012"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <TextView
+        android:id="@+id/stextView57012"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="AC: Yes"
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView20012"
+        app:layout_constraintEnd_toEndOf="@+id/sview5012"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="@+id/sview5012"
+        app:layout_constraintTop_toBottomOf="@+id/stextView26012"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <ImageView
+        android:id="@+id/simageView20012"
+        android:layout_width="187dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/familyroom" />
+
+    <TextView
+        android:id="@+id/stextView56012"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Living Room | Television | Food "
+        android:textColor="@color/d4_blue"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/simageView20012"
+        app:layout_constraintEnd_toEndOf="@+id/sview5012"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/sview5012"
+        app:layout_constraintTop_toBottomOf="@+id/stextView26012"
+        app:layout_constraintVertical_bias="0.443" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

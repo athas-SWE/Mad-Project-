@@ -1,0 +1,81 @@
+<resources>
+    <string name="new_various_of_luxury">New Various Of Luxury</string>
+    <string name="a_luxury_hotel_is_considered_a_hotel_which_provides_a_luxurious_accommodation_experience_to_the_guest">A Luxury Hotel is considered a hotel which provides a luxurious accommodation experience to the guest</string>
+    <string name="skip1">skip</string>
+    <string name="todo1">TODO</string>
+    <string name="best_view_in_our_hotel">Best View In Our Hotel</string>
+    <string name="if_your_hotel_is_a_high_rise_ask_for_a_room_on_a_higher_floor_these_are_most_likely_to_have_the_best_views_over_the_city">if your hotel is a high rise, ask for a room higher floor. These to have the best views over the city</string>
+    <string name="get_start">Get Start</string>
+    <string name="todo2">TODO</string>
+    <string name="pleasant_hours">Pleasant Hours</string>
+    <string name="my_pleasant_hotel_is_a_smart_choice_for_travelers_to_shenzhen_offering_a_relaxed_and_hassle_free_stay_every_time">My Pleasant Hotel is a smart choice for shenzhen, offering a relaxed and hassle-free stay every time</string>
+    <string name="skip2">skip</string>
+    <string name="todo3">TODO</string>
+    <string name="signin">Signin</string>
+    <string name="signup">Signup</string>
+    <string name="hyperlink"><a href="https://developer.android.com/studio/terms">Terms and condition</a></string>
+
+    <string name="app_name">MAD_Final</string>
+    <string name="invalid_email">Enter the valid email</string>
+    <string name="invalid_password">Enter the valid password</string>
+    <string name="invalid_confirmpassword">check ur confirm password</string>
+    <string name="B1">HOTEL VADALI</string>
+    <string name="B2">Room Reservation</string>
+    <string name="B3">Customer Name</string>
+    <string name="B4">Phone No</string>
+    <string name="B5">Email</string>
+    <string name="B6">Check_in Date</string>
+    <string name="B7">Check_out Date</string>
+    <string name="B8">No of Rooms</string>
+
+    <string name="invalid_id">Enter the Valid ID</string>
+    <string name="invalid_type">Fill  the Room Type</string>
+    <string name="invalid_noofrooms">Enter the  No_Of _Rooms</string>
+    <string name="invalid_roomcost">Enter the   Room cost</string>
+    <string name="invalid_facilities">Enter the Room facilities</string>
+    <string name="invalid_name">Enter the Name</string>
+    <string name="invalid_phone">Enter the phonr number</string>
+    <string name="invalid_rooms">Enter the room</string>
+
+    <string name="a1">Employee Name</string>
+    <string name="A2">Vadali Guest house</string>
+    <string name="aa1">Employee Management</string>
+    <string name="AA3">Employee ID</string>
+    <string name="aa4">Photo</string>
+    <string name="aa5">Address</string>
+    <string name="aa6">Telephone No</string>
+    <string name="aa7">Email</string>
+    <string name="aa8">Working Position</string>
+    <string name="aa9">Salary</string>
+    <string name="aa10">Date of Birth</string>
+    <string name="invalid_phoneno">Enter The Valid Phone No</string>
+    <string name="ivalid_Id">Enter the Valid ID</string>
+    <string name="ivalid_address">Enter the Address</string>
+    <string name="invalid_salary">Enter the Salary</string>
+    <string name="ivalid_position">Enter the Working Position</string>
+    <string name="invalid_packageID">Enter the Package ID</string>
+    <string name="invalid_packagename">Enter the Package Nem</string>
+    <string name="invalid_packagecost">Enter the Package Cost</string>
+    <string name="invalid_facilities_pac">Enter the Package Facilities</string>
+    <string name="invalid_typeroom">Enter the Room Type</string>
+    <string name="invalid_chekin">Enter the Checkin</string>
+    <string name="invalid_checkout">Enter the Checkout</string>
+    <string name="invalid_roomno">Enter the No of Rooms</string>
+    <string name="logo_img">LOGO_Img</string>
+    <string name="thalsevena">Thalsevena</string>
+    <string name="logout_img">LOGOUT_Img</string>
+    <string name="logout">LOGOUT</string>
+    <string name="thalsevena_admin_pannel">THALSEVENA ADMIN PANEL</string>
+    <string name="employee_img">Employee_Img</string>
+    <string name="employee_management">Employee Management</string>
+    <string name="rooms_management">ROOMS MANAGEMENT</string>
+    <string name="booking">Booking</string>
+    <string name="view_btn">VIEW</string>
+    <string name="delete_btn">DELETE</string>
+    <string name="search_btn">SEARCH</string>
+    <string name="edit_btn">EDIT</string>
+    <string name="insert_btn">INSERT</string>
+    <string name="view_customer_booking_details">View Customer Booking Details</string>
+
+
+</resources>

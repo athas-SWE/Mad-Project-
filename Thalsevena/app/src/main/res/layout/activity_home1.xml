@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/l1_blue"
+    tools:context=".home1">
+
+    <ImageView
+        android:id="@+id/S_imageView"
+        android:layout_width="472dp"
+        android:layout_height="586dp"
+        android:contentDescription="@string/todo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/home2" />
+
+    <TextView
+        android:id="@+id/S_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/new_various_of_luxury"
+        android:textColor="@color/d5_blue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/S_textView2"
+        android:layout_width="334dp"
+        android:layout_height="86dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/a_luxury_hotel_is_considered_a_hotel_which_provides_a_luxurious_accommodation_experience_to_the_guest"
+        android:textAlignment="center"
+        android:textColor="@color/d4_blue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/S_textView1"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <Button
+        android:id="@+id/S_button1"
+        android:layout_width="333dp"
+        android:layout_height="52dp"
+        android:background="@drawable/custom_buttton2"
+        android:text="@string/skip1"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/S_textView2"
+        app:layout_constraintVertical_bias="0.507" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

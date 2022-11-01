@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo4"
+        android:label="Thalsevena"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".admin_event_show"></activity>
+        <activity android:name=".event_booking" />
+        <activity android:name=".contactus" />
+        <activity android:name=".home1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pacakage" />
+        <activity android:name=".our_rooms" />
+        <activity android:name=".booking" />
+        <activity android:name=".Admin_booking" />
+        <activity android:name=".Addinventory" />
+        <activity android:name=".Admin" />
+        <activity android:name=".AD_Employee" />
+        <activity android:name=".Home" />
+        <activity android:name=".Login" />
+        <activity android:name=".home4" />
+        <activity android:name=".Home3" />
+        <activity android:name=".Home2" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
